@@ -39,10 +39,6 @@ h1, p{
     width: 48%;
     height: auto;
 }
-.bildpar p{
-    width: 100%;
-    margin-top: 10px;
-}
 .om-mig{
     display: flex;
     align-items: center;
@@ -86,9 +82,10 @@ header img{
         flex-direction: column;
         gap: 10px;
         padding: 10px;
+        justify-content: center;
     }
     .image-grid img{
-        width: 100%;
+        width: calc(33% - 10px);
     }
     .bildpar{
         flex-direction: column;
