@@ -45,6 +45,9 @@ h1, p{
     display: flex;
     align-items: center;
     gap: 15px;
+    justify-content: center;
+    max-width: 599px;
+    margin: 0 auto;
 }
 .om-mig img{
     max-width: 200px;
